@@ -1,26 +1,40 @@
 # Hiketunez
+
+![Github License](https://img.shields.io/badge/license-none-blue.svg)
+
 <img src="Assests/Images/one.png">
-<img src="Assests/Images/two.png">
-<img src="Assests/Images/three.png">
-<img src="Assests/Images/four.png">
-<img src="Assests/Images/five.png">
-<img src="Assests/Images/six.png">
-<img src="Assests/Images/seven.png">
-<img src="Assests/Images/eight.png">
-<img src="Assests/Images/nine.png">
-<img src="Assests/Images/ten.png">
 
 
-https://github.com/Donchiz77/Hiketunez
+[Deployed](https://github.com/Donchiz77/Hiketunez)    |    [Repo](https://donchiz77.github.io/Hiketunez)
 
-https://donchiz77.github.io/Hiketunez
 
-The website that we created is used to locating parks and places in North Carolina to hike at. The purpose of creating this site is to locate different hiking places plus have a soundtrack playing while you hike to get you feeling groovy.
-The front page is the about page and at the bottom there is a button to click on that will take you to the locator. On the locator page, you can either click the place, park or saved hikes buttons to then have the information generated in a custom card. Each card includes a button to save the hike to your favorites, a soundtrack button that plays the selected soundtrack for that hike, and an address button that will pop up a modal with the address of the park. The save hike button will save that hike infomation to the local storage to view later. If you click on the saved hikes button, it will take you to a page that will hold all the places you have saved.
-For the 2 API requirements, we used NPS.gov(for the park/places information) and Youtube (for the soundtracks). For the styling we did it from scratch and in some places used Bluma.
+## Description
+Living in North Carolina just got better. If you are a hiker this site will get you feeling groovy. Search for a place to hike in North Carolina and save the hike to a favorites list so you can go back again!
 
-Technologies Used: HTML, CSS, JavaScript
+## Table of Contents
+[Installation](#installation)
 
-License: MIT
+[Usage](#usage)
 
-Contact Information: DAUPHINEBURNS@GMAIL.COM
+[Technologies Used](#technologies)
+
+[License](#license)
+
+[Contact](#contact)
+
+## Installation
+No installation needed.
+
+## Usage
+Find a groove while you move. Get a sound track customized to the hike of your choosing. 
+
+## Technologies
+Technologies used: JavaScript, HTML, CSS, Youtube API, NPS API
+
+## License
+License: None
+
+## Contact
+Contact: 
+dauphineburns@gmail.com
+
