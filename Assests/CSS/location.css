@@ -53,9 +53,12 @@ button {
     position: relative;
     color: rgb(90, 88, 88);
     width: 100px;
-    height: 40px;
+    height: 35px;
     transition: all 0.3s;
     margin-left: 15px;
+    /* background-color: transparent;
+    border-color: grey;
+    border-width: 2px; */
 }
 .btns {
     font-family: "lato", sans-serif;
@@ -181,12 +184,12 @@ transform: scale(1.2, 1.2);
     left: 50%;
     width: 600px;
     height: 350px;
-    background-color: rgb(122, 121, 121);
+    /* background-color: #f4f4f4; */
     margin-left: -300px;
     display: none; 
-    border-radius: 15px;
     align-items: center;
     justify-content: center;
+    background-image: url("../Images/greysky.jpeg");
     
 }
 
@@ -194,6 +197,9 @@ transform: scale(1.2, 1.2);
     margin: 5px auto;
     width: 100px;
     display: block;
+    background-color: transparent;
+    border-color: grey;
+    border-width: 2px;
 }
 
 #overlay {
@@ -207,11 +213,10 @@ transform: scale(1.2, 1.2);
 }
 
 #address-popup {
-    color: #f4f4f4;
+    color: #666;
     font-size: xx-large;
-    height: 350px;
+    height: 200px;
     width:600px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     padding:20px;
    
 }
@@ -221,16 +226,15 @@ transform: scale(1.2, 1.2);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 10px;
+
 }
 #address {
     align-items: center;
     justify-content: center;
     display: inline-block;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 10px;
+
 }
 
 
@@ -238,27 +242,23 @@ transform: scale(1.2, 1.2);
     align-items: center;
     justify-content: center;
     display: inline-block;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 5px;
+
 }
 
 #state {
     align-items: center;
     justify-content: center;
     display: inline-block;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 5px;
+
 }
 
 #zip {
     align-items: center;
     justify-content: center;
     display: inline-block;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 10px;
 }
 
 @media(max-width:568px){
