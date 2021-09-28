@@ -9,6 +9,7 @@ body, html{
     background-image: url(../Images/pexels-tammi-nowack-1559708.jpeg);
     background-position: center;
     background-size:cover;
+    padding:3%;
     
 };
 
@@ -117,7 +118,6 @@ transform: scale(1.2, 1.2);
     width: 100px;
     height: 30px;
     margin-left: 5px;
-    border-radius: 15px;
     color: black;
     border-color: black;
 }
@@ -126,7 +126,6 @@ transform: scale(1.2, 1.2);
     width: 100px;
     height: 30px;
     margin-left: 5px;
-    border-radius: 15px;
     color: black;
     border-color: black;
 }
@@ -135,7 +134,6 @@ transform: scale(1.2, 1.2);
     width: 100px;
     height: 30px;
     margin-left: 5px;
-    border-radius: 15px;
     color: black;
     border-color: black;
 }
@@ -143,11 +141,13 @@ transform: scale(1.2, 1.2);
 /* Card Design */
 #cards {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color:white;
     opacity:.6;
     color:black;
+    padding:3%;
+    text-align: center;
 } 
 
 .modal-card {
