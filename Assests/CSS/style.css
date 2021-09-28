@@ -133,7 +133,6 @@ body, html{
   
   .btn-four::after {
     transition: all 0.3s;
-    border: 1px solid rgba(255, 255, 255, 0.5);
   }
   
   .btn-four:hover::after {
