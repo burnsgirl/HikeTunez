@@ -5,46 +5,24 @@ body, html{
     font-family: "lato", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color: rgb(247, 245, 245);
-    background-color: #666;
+    color: #e8e4e4;
+    background-image: url("../Images/savedhikes.jpeg");
+
 };
 
-/*Header*/
 
-.jtext{
-    position: absolute;
-    top: 50%;
-    width: 100%;
+#savedHikesHeader {
     text-align: center;
-    color: #000;
-    font-size: 27px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
 }
-
-.sec1{
-    text-align: center;
-    padding: 50px 80px;   
-   }
-   
-   .sec1-light{
-     background-color: #f4f4f4;
-     color: #666;  
-   }
-
-   .jtext .boarder{
-    background-color: #111;
-    color: #fff;
-    padding: 20px;
-}
-
 
 p {
-    color:#fff;
     font-family: "lato", sans-serif;
-    display:flex;
-    align-items: center;
-    justify-content:center;
+    text-align: center;
+    margin: 0px;
+}
+
+#address-popup p {
+    color:grey;
 }
 
 #cards {
@@ -52,6 +30,8 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     padding:15px;
+    text-align:center;
+    opacity:100%;
 } 
 
 
@@ -89,10 +69,9 @@ p {
     font-size: 16px;
     position: relative;
     color: rgb(90, 88, 88);
-    width: 100px;
     height: 40px;
     transition: all 0.3s;
-    margin-left: 15px;
+
 }
       
       
@@ -231,6 +210,11 @@ transform: scale(1.2, 1.2);
 .addressBtn:hover::after {
     transform: scale(0, 0);
     opacity: 0;
+}
+
+#address-popup {
+    background-color:white;
+    text-align: center;
 }
 
 @media(max-width:568px){
