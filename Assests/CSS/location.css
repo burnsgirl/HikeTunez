@@ -259,15 +259,42 @@ transform: scale(1.2, 1.2);
     margin: 0px 10px;
 }
 
-@media(max-width:568px){
-    body, div, html {
-        background-attachment: scroll;
-    }
-}
-
 @media(max-width:768px){
     body, div, html {
         background-attachment: scroll;
     }
 }
 
+@media(max-width:568px){
+    body, div, html {
+        background-attachment: scroll;
+    }
+
+    #address-popup {
+    position: fixed;
+    text-align: center;
+    top: 186px;
+    left: 58px;
+    color: #666;
+    font-size: xx-large;
+    height: 300px;
+    width: 250px;
+    /* padding: 20px;
+       
+    }
+
+    .popup {
+        position: none;
+        top: 0px;
+        left: none;
+        width: 0px;
+        height: 0px;
+        /* background-color: #f4f4f4; */
+        margin-left: -0px;
+        display: none; 
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+}

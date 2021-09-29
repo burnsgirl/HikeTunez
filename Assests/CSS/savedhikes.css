@@ -8,14 +8,24 @@ body, html{
     color: #e8e4e4;
     background-image: url("../Images/savedhikes.jpeg");
 
-};
+}
 
 #hikeheader {
-    text-align: center;
+
+        text-align: center;
+        font-size: 40px;
+        padding: 5%;
+        color: #e8e4e4;
+        font-weight: bolder;
 }
 
 #savedHikesHeader {
-    text-align: center;
+    display: flex;
+    background-color: #e8e4e4;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    color: #5b5858;
 }
 
 p {
